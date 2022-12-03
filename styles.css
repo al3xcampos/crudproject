@@ -1,0 +1,39 @@
+.encabezado{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+display: flex;
+justify-content: space-between
+}
+.logo{
+    width: 200px;
+    display: flex;
+    align-items: flex-start;
+    background-color: aqua;
+}
+.titulo{
+    display:flex;
+    align-items: center;
+    
+}
+.principal{
+    width: 100%;
+    height: 400px;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.piedepagina{
+    width: 100%;
+    height: 100px;
+    font-style: italic;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: gray;
+}
