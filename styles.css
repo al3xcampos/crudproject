@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: bisque;
+    background-color: white;
 }
 .div-titulo{
     width: 100%;
@@ -27,7 +27,7 @@ body{
     width: 30%;
     height: 250px;
     margin: 15px 15px;
-    background-color: gray;
+    background-color: rgb(231, 51, 51) ;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -61,7 +61,7 @@ body{
     width: 55%;
     height: calc(100% - 50px);
     margin: 15px 15px;
-    background-color: grey;
+    background-color: rgb(231, 51, 51);
     display: flex;
     flex-direction: column;
     align-items: center;
