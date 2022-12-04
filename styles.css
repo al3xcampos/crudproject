@@ -1,31 +1,113 @@
-.encabezado{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+}
+.div-titulo{
     width: 100%;
     height: 100px;
-    background-color: black;
-    color: white;
-    font-size: 25px;
-display: flex;
-justify-content: space-between
-}
-.logo{
-    width: 200px;
     display: flex;
-    align-items: flex-start;
-    background-color: aqua;
-}
-.titulo{
-    display:flex;
+    justify-content: center;
     align-items: center;
-    
 }
-.principal{
+.div-titulo h1{
+    font-weight: 300;
+}
+
+.contenedor{
     width: 100%;
-    height: 400px;
-    background-color: brown;
+    height: calc(100vh - 100px);
     display: flex;
+    justify-content: center;
+}
+.contenedor .div-formulario{
+    width: 30%;
+    height: 250px;
+    margin: 15px 15px;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: space-around;
-    
+    border-radius: 10px;
+    box-shadow: 10px 10px black;
+}
+.contenedor .div-formulario h2{
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 2em;
+    color: whitesmoke;
+}
+
+.contenedor .div-formulario form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor .div-formulario form input,
+.contenedor .div-formulario form button{
+    width: 60%;
+    padding: 10px 10px;
+    margin: 10px 10 px;
+}
+
+.contenedor .div-listado{
+    width: 55%;
+    height: calc(100% - 50px);
+    margin: 15px 15px;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px black;
+}
+.contenedor .div-listado h2{
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 2em;
+    color: whitesmoke;
+}
+.contenedor .div-listado .div-empleado{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    padding: 0 30px;
+}
+.contenedor .div-listado .div-empleado p{
+    margin: 10px 0;
+    font-size: 1em;
+    color: #ddd;
+}
+.div-listado{
+    width: 100%;
+    height: 200px;
+}
+hr{
+    width: 100%;
+    height: 1px;
+}
+.btn{
+    padding: 5px 10px;
+    border: none;
+    margin: 0 5px;
+    color: white;
+    border-radius: 50px;
+}
+.btn-editar{
+    background-color: green;
+}
+.btn-eliminar{
+    background-color: red;
 }
 .piedepagina{
     width: 100%;
